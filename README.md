@@ -1,4 +1,4 @@
-# Elegant Product Review Analyzer (AI-Powered)
+# Product Review Analyzer (AI-Powered)
 
 Aplikasi web elegan yang memanfaatkan kecerdasan buatan (AI) untuk menganalisis ulasan produk secara otomatis. Dibuat dengan antarmuka yang simpel, modern, dan cantik untuk pengalaman pengguna yang intuitif.
 
