@@ -1,0 +1,178 @@
+.review-list-section {
+  margin-top: 30px;
+}
+
+.section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.section-header h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-secondary);
+  background: white;
+  border-radius: var(--radius-lg);
+  border: 1px dashed var(--border-color);
+}
+
+.empty-state svg {
+  color: #cbd5e1;
+  margin-bottom: 16px;
+}
+
+.reviews-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* --- Card Design: Clean & Readable --- */
+.review-card {
+  background: white;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: var(--shadow-sm);
+}
+
+.review-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-md);
+  border-color: #cbd5e1;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.card-header h3 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--text-main);
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Badge Styles - Pill Shaped & Readable */
+.sentiment-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: 99px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.025em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: 12px;
+}
+
+/* Warna Badge menggunakan background pastel agar text tetap terbaca */
+.sentiment-badge.success {
+  background-color: #dcfce7; /* Hijau Pastel */
+  color: #15803d; /* Hijau Tua */
+}
+
+.sentiment-badge.danger {
+  background-color: #fee2e2; /* Merah Pastel */
+  color: #b91c1c; /* Merah Tua */
+}
+
+.sentiment-badge.warning {
+  background-color: #fef3c7; /* Kuning Pastel */
+  color: #b45309; /* Oranye Tua */
+}
+
+.sentiment-badge.neutral {
+  background-color: #f1f5f9;
+  color: #475569;
+}
+
+.review-text {
+  font-size: 1rem;
+  color: #334155; /* Slate 700 - Kontras tinggi tapi tidak hitam pekat */
+  line-height: 1.7; /* Spasi antar baris nyaman */
+  margin-bottom: 24px;
+}
+
+/* Key Points Section */
+.key-points {
+  background: #f8fafc;
+  border-radius: var(--radius-md);
+  padding: 16px;
+  border: 1px solid #f1f5f9;
+}
+
+.key-points h4 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-secondary);
+  margin-bottom: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.key-points ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.key-points li {
+  position: relative;
+  padding-left: 20px;
+  font-size: 0.9rem;
+  color: var(--text-main);
+  margin-bottom: 8px;
+}
+
+.key-points li::before {
+  content: "•";
+  color: var(--primary);
+  font-weight: bold;
+  position: absolute;
+  left: 4px;
+}
+
+.key-points li:last-child {
+  margin-bottom: 0;
+}
+
+.no-points {
+  color: var(--text-light);
+  font-style: italic;
+  font-size: 0.85rem;
+}
+
+.card-footer {
+  margin-top: 16px;
+  padding-top: 12px;
+  font-size: 0.75rem;
+  color: var(--text-light);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}

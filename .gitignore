@@ -1,0 +1,40 @@
+# ================================
+# Backend
+# ================================
+# Virtual environment
+backend/venv*/
+# Python cache
+backend/__pycache__/
+backend/*.pyc
+# Environment file
+backend/.env
+# Mac system files
+backend/.DS_Store
+
+# ================================
+# Frontend
+# ================================
+# Node modules & build output
+frontend/node_modules/
+frontend/build/
+# Mac system files
+frontend/.DS_Store
+
+# ================================
+# IDE / Editor
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================================
+# OS files
+# ================================
+Thumbs.db
+.DS_Store
+
+# ================================
+# Logs
+# ================================
+*.log
