@@ -4,7 +4,7 @@ Aplikasi web elegan yang memanfaatkan kecerdasan buatan (AI) untuk menganalisis 
 
 ---
 
-## ✨ Fitur Utama
+##  Fitur Utama
 
 Aplikasi ini dirancang untuk memberikan wawasan cepat dari teks ulasan produk:
 
@@ -16,7 +16,7 @@ Aplikasi ini dirancang untuk memberikan wawasan cepat dari teks ulasan produk:
 
 ---
 
-## 🛠️ Teknologi yang Digunakan
+##  Teknologi yang Digunakan
 
 Proyek ini dibangun menggunakan teknologi web modern dan layanan AI terdepan:
 
@@ -31,7 +31,7 @@ Proyek ini dibangun menggunakan teknologi web modern dan layanan AI terdepan:
 
 ---
 
-## 🚀 Cara Menjalankan Proyek (Instalasi)
+##  Cara Menjalankan Proyek (Instalasi)
 
 Ikuti langkah-langkah ini untuk menjalankan aplikasi di komputer lokal Anda.
 
@@ -96,7 +96,7 @@ Pastikan Anda sudah menginstal:
 
 ---
 
-## 📝 Cara Penggunaan
+##  Cara Penggunaan
 
 1.  Buka aplikasi di browser.
 2.  Masukkan **Nama Produk** yang diulas.
@@ -106,5 +106,3 @@ Pastikan Anda sudah menginstal:
 6.  Riwayat analisis Anda akan muncul di panel sebelah kanan.
 
 ---
-
-**Dibuat dengan 💖 dan kecerdasan buatan.**
